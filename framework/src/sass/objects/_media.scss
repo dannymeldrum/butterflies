@@ -1,0 +1,41 @@
+/*
+* Media Object - Aligns an image next to a block of text.
+*/
+%media,
+.media {
+
+	overflow:hidden;
+
+	&__body {
+		overflow:hidden;
+	}
+	&__figure {
+		float:left;
+		margin-right: $base-spacing / 2;
+		img{
+			display:block;
+		}
+	}
+
+	&__figure--rev {
+		float:right;
+		margin-left: $base-spacing;
+	}
+
+}
+
+/*
+* Flex-box alternative
+*/
+%fb-media,
+.fb-media {
+	display: flex;
+	align-items: flex-start;
+	&__figure {
+	  margin-right: $base-spacing;
+	}
+
+	&__body {
+	  flex: 1;
+	}
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Site Title</title>
+
+		<meta name="viewport" content="initial-scale=1.0">
+
+		<!--[if !IE]><!-->
+		<link rel="stylesheet" href="_assets/css/style.css">
+		<!--<![endif]-->
+		<!--[if gte IE 9]>
+		<link rel="stylesheet" href="_assets/css/style.css">
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="_assets/css/style-ie.css" />
+		<![endif]-->
+</head>
+
+
+<body>
+	<div class="container">
+		<h1>Breakpoints</h1>
+		<p>Example breakpoints for Goldsmiths using the Breakpoint slice sytem</p>
+		<div class="bp-at-tiny bp-layout">
+			<code>
+				@include bp-from($slice-small...) {
+				}
+			</code>
+		</div>
+		<div class="bp-at-small bp-layout">
+			<code>
+				@include bp-at($slice-small...) {
+				}
+			</code>
+		</div>
+		<div class="bp-at-medium bp-layout">
+			<code>
+				@include bp-at($slice-medium...) {
+				}
+			</code>
+		</div>
+		<div class="bp-at-large bp-layout">
+			<code>
+				@include bp-at($slice-large...) {
+				}
+			</code>
+		</div>
+	</div>
+<!-- Require JS Development -->
+<!-- <script data-main="framework/src/js/main" src="framework/src/js/libs/require.js"></script> -->
+<!-- Require JS Production -->
+<script src="_assets/js/all.js"></script>
+
+</body>
+</html>

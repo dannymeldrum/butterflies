@@ -1,0 +1,53 @@
+//----------------------------------*\
+//  Susy Grid
+//----------------------------------*/
+
+// Columns
+$columns-tiny:    4;
+$columns-small:   6;
+$columns-medium:  9;
+$columns-large:  12;
+$columns-huge:   16;
+
+$slicer-breakpoints: (
+    tiny   : 0,       // Extra small screen size
+    small  : 480px,   // Small screen size
+    medium : 720px,   // Medium screen size
+    large  : 1024px,  // Large screen size
+    huge   : 1280px,  // Extra large screen size
+);
+
+$slice-small:   (slice-name: small, with-layout: $columns-small, no-query: false);
+$slice-medium:  (slice-name: medium, with-layout: $columns-medium, no-query: false);
+$slice-large:   (slice-name: large, with-layout: $columns-large, no-query: false);
+$slice-huge:    (slice-name: huge, with-layout: $columns-huge, no-query: false);
+
+// Gutter and column widths for proportions
+$gutter-width: 30px;
+$column-width: 80px;
+
+// Max site width - Whats the largest you want the grid to expand to?
+$max-primary-container-width: 1300px;
+
+// Primary container gutters at various breakpoints.
+$primary-container-gutter-tiny: 20px;
+$primary-container-gutter-small: 40px;
+$primary-container-gutter-medium: 60px;
+$primary-container-gutter-large: 80px;
+$primary-container-gutter-huge: 100px;
+
+$susy: (
+  columns: $columns-tiny,
+  gutters: $gutter-width/$column-width,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  global-box-sizing: content-box,
+  use-custom: (rem: true),
+  debug: (
+    image: show-columns,
+    color: rgba(255,0,0,0.6),
+    output: background,
+    toggle: top right,
+  )
+);

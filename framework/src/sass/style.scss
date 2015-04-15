@@ -1,0 +1,105 @@
+/* 
+* Style.scss
+*
+* Numiko Framework
+*
+* The order of files reflects the natural CSS cascade of specificity. We start with global vairables and work down to the most specific classes.
+* 
+* 
+* 
+* [1]  Frameworks
+* 		- External framrworks, Susy, Breakpoint and other SCSS systems.If you are using a framrwork, include it directly rather than a GEM.
+* [2]  Config
+* 		- Vairables at a global level, grid settings and font and colour vairables required for the site.
+* [3]  Core
+* 		- Mixinss, normalise and helper classes. Only mixins in the mixin file, helpers should comprise only of classes.
+* [4]  Base
+* 		- Typography, lists, forms, tables. Basic styling WITHOUT classes.
+* [5]  Vendor
+* 		- Vendor CSS from plugins or other frameworks.
+* [6]  Layout
+* 		- The core site layout based on grids and breakpoints.
+* [7]  Objects
+* 	    - Object abstractions that combine often repeated layouts.
+* [8]  Components
+* 	    - The primary elements of the site, created from objects and layouts, 
+*         these define the elements that reflect the design and UI of the site.
+* [9]  States
+* 	    - Page based alterations to the layout, design or UI.
+* [10] Temp
+* 	    - Styles that are either temporary during developlent or require work to re-factor a more appropriate
+* 	      part of the framework.
+*/ 
+
+
+/*
+ * [1] Vendor - Frameworks
+ *
+ * https://github.com/at-import/breakpoint
+ * https://github.com/douglasduteil/fake-breakpoint-slicer 
+ * http://albertogasparin.it/articles/2014/09/breakpoint-library-and-libsass/
+ * https://github.com/ericam/susy/pull/406
+*/
+@import "vendor/breakpoint/breakpoint";
+@import "vendor/breakpoint-slicer/breakpoint-slicer";
+@import "vendor/susy/susy";
+
+/*
+ * [2] Config
+*/
+@import "config/grid";
+@import "config/variables";
+
+/*
+ * [3] Core
+*/
+@import "core/mixins";
+@import "core/normalize";
+@import "core/helpers";
+
+/*
+ * [4] Base
+*/
+@import "base/typography";
+@import "base/lists";
+@import "base/forms";
+@import "base/tables";
+
+/*
+ * [5] Vendor - plugins
+*/
+
+
+/*
+ * [6] Layout
+*/
+@import "layout/structure";
+
+/*
+ * [7] Objects
+*/
+@import "objects/media";
+@import "objects/flag";
+@import "objects/list-block";
+@import "objects/list-inline";
+
+
+/*
+ * [8] Components
+*/
+@import "components/mainmenu";
+@import "components/preloader";
+@import "components/overlay";
+@import "components/header";
+@import "components/sidebar";
+
+/*
+*  [9] States 
+*/
+@import "states/homepage";
+
+/*
+ * [10] Temp
+*/
+@import "temp/debug";
+@import "temp/breakpoints-demo";

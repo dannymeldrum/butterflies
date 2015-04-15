@@ -1,0 +1,136 @@
+/* Mixins
+* [1] Rems and Ems
+* [2] Psuedo Blocks
+* [3] Hide visibility (accessible)
+* [4] Prevent webkit GPU flash
+* [5] Breakpoint Slicer mixin (with susy with-layout())
+*/ 
+
+
+
+
+/*
+* [1] Property handling with ems and rems
+* Ems = font-size: em(20px);
+* Rems = @include rem-property(font-size, 24px) or rem-property(line-height, 24px)
+*/
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
+@function rem($px) {
+    @return ($px / $browser-default-font-size) * 1rem;
+}
+@mixin rem-property($property, $px) {
+  #{$property}:$px;
+  #{$property}:rem($px);
+}
+
+
+/* 
+* [2] Psudo Blocks
+* Quick method to create psudo blocks
+*/
+@mixin pseudo-block($width: 16px, $height: 16px, $centre-position: true) {
+  display: inline-block;
+  content: '';
+  width:$width;
+  height:$height;
+
+  @if $centre-position {
+      position: absolute;
+      display: block;
+
+      @if $width == 100% {
+          margin-left: 0;
+          left:0;
+      } @else {
+          margin-left: -$width / 2;
+          left:50%;
+      }
+
+      @if $height == 100% {
+          margin-top: 0;
+          top:0;
+      } @else {
+          margin-top: -$height / 2;
+          top: 50%;
+      }
+  }
+}
+
+
+/*
+* [3] Hides an element visually, but makes it still available for screenreaders
+*/
+@mixin hide-visually {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+* [4] Prevent webkit GPU flash
+*/
+@mixin prevent-webkit-gpu-flash {
+    -webkit-transform: translateZ(0);
+}
+
+/*
+* [5]Breakpoint Slicer mixin wrappers (with susy with-layout())
+*/
+@mixin bp-between($slice-left, $slice-right, $with-layout: false, $no-query: false) {
+ @include between($slice-left, $slice-right, $no-query:false) {
+    @if $with-layout != false {
+      @include with-layout($with-layout) {
+        @content;
+      }
+    } 
+    @else {
+      @content;
+    }
+  }
+}
+
+@mixin bp-at($slice-name, $with-layout: false, $no-query: false){
+  @include at($slice-name, $no-query: false){
+    @if $with-layout != false {
+      @include with-layout($with-layout) {
+          @content;
+      }
+    } 
+    @else {
+      @content;
+    }
+  }
+}
+
+@mixin bp-from($slice-name, $with-layout:false, $no-query: false){
+  @include from($slice-name, $no-query: false){
+     @if $with-layout != false {
+      @include with-layout($with-layout) {
+        @content;
+      }
+    } 
+    @else {
+      @content;
+    }
+  }
+}
+
+@mixin bp-below($slice-name, $with-layout: false, $no-query: false){
+  @include below($slice-name, $no-query: false){
+    @if $with-layout != false {
+      @include with-layout($with-layout) {
+        @content;
+      }
+    } 
+    @else {
+      @content;
+    }
+  }
+}

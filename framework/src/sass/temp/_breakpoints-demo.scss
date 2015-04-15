@@ -1,0 +1,96 @@
+
+.breakpoint-test-huge {
+
+    background-color:red;
+    height: 40px;
+
+    /*
+    * at functions the same as only, ONLY this breakpoint
+    */
+    @include bp-at(medium) {
+        background-color: yellow;
+    }
+
+    /*
+    * at functions the same as only, ONLY this breakpoint
+    */
+    @include bp-below(medium) {
+        border-bottom:1px purple solid;
+    }
+
+    /*
+    * between functins from the start of first breakpoint, until the start of the last (excludes it)
+    */
+    @include bp-between(large, huge) {
+        background-color: orange;
+    }
+
+    /*
+    * at functions the same as only, ONLY this breakpoint
+    */
+    @include bp-at($slice-huge...) {
+        @include span(6);
+        background-color:green;
+    }  
+}
+
+/*
+ * Test cases for all breakpoints;
+ */
+.bp-layout {
+    background: grey;
+    color: white;
+    padding: 20px;
+    @include bp-at($slice-small...) {
+        @include span(3);
+        &:nth-child(2n) { 
+            @include omega; 
+        }
+    }
+    @include bp-at($slice-medium...) {
+        @include span(3);
+        &:nth-child(3n) { 
+            @include omega; 
+        }
+    }
+    @include bp-at($slice-large...) {
+        @include span(3);
+        &:last-child { 
+            @include omega; 
+        }
+    }
+    @include bp-at($slice-huge...) {
+        @include span(4);
+        &:last-child { 
+            @include omega; 
+        }
+    }
+}
+
+.bp-at-small {
+    opacity:0.3;
+    @include bp-at($slice-small...) {
+        opacity:1;
+    }
+}
+
+.bp-at-medium {
+    opacity:0.3;
+    @include bp-at($slice-medium...) {
+        opacity:1;
+    }
+}
+
+.bp-at-large {
+    opacity:0.3;
+    @include bp-at($slice-large...) {
+        opacity:1;
+    }
+}
+
+.bp-at-huge {
+    opacity:0.3;
+    @include bp-at($slice-huge...) {
+        opacity:1;
+    }
+}

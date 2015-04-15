@@ -1,0 +1,56 @@
+/*
+* Form defaults
+*/
+form { 
+	@extend .clearfix;
+}
+fieldset {
+	@extend .clearfix;
+}
+legend {
+
+}
+
+// Text based inputs
+input,
+textarea {
+	line-height: $base-line-height;
+	appearance: textfield;
+	-moz-appearance:textfield;
+}
+
+
+// Selects
+select {
+	line-height: $base-line-height;
+}
+
+// Button type inputs
+input[type=button],
+input[type=submit],
+button {
+	line-height: $base-line-height;
+}
+
+// Checkboxes & Radios
+input[type=checkbox],
+input[toye=radio] {
+
+}
+
+// File
+input[type=file] {
+
+}
+
+// Search
+input[type=search] {
+	
+}
+
+// Number input 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

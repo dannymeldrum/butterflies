@@ -1,0 +1,12 @@
+/*
+* Creates an block list, bocky text lists.
+*/
+.list-block,
+%list-block {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	> li {
+		display: inline-block;
+	}
+}

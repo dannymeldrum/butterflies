@@ -1,0 +1,23 @@
+/*
+* Creates an inline list, typically used to hold menu items and charm icons.
+*/
+.list-inline,
+%list-inline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	> li {
+		display: inline-block;
+	}
+
+	&--delimited {
+		 > li {
+			&:after {
+			content: ",";
+			}
+			&:last-child:after {
+				content: "";
+			}
+		}
+	}
+}

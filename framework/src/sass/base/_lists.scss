@@ -1,0 +1,38 @@
+/*
+* Default list styles
+*/
+ul,
+ol,
+dl {
+	margin-top: $base-spacing;
+	margin-bottom: $base-spacing;
+}
+
+
+ul {}
+
+
+ol {}
+
+
+dl {
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+  }
+}
+
+
+/* 
+* Nav list
+*/
+nav {
+	> ul,
+	> ol {
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+}
