@@ -69,38 +69,14 @@ jQuery(document).ready(function($) {
 	});
 
 	/* Fullscreen slider */
-
-	var fSwiper = new Swiper('#fullscreen-slider',{
-		onSwiperCreated: function() {
-			// Slide has video
-			if ($('#fullscreen-slider .swiper-slide-active').has('video').length) {
-				$('#fullscreen-slider .swiper-slide-active video').get(0).play();
-			}
-		},
-		onSlideChangeStart: function() {
-			// Stop videos in slider
-			$('#fullscreen-slider .swiper-slide').each(function() {
-				if ($(this).has('video').length) {
-					$(this).children('video').get(0).pause();
-				}
-			});
-			// Has video
-			if ($('#fullscreen-slider .swiper-slide-active').has('video').length) {
-				$('#fullscreen-slider .swiper-slide-active video').get(0).play();
-			}
-			// Hide arrow on first and last slide
-			if (fSwiper.activeIndex == 0) {
-				$('#nav-arrows .nav-left').addClass('hidden');
-			} else {
-				$('#nav-arrows .nav-left').removeClass('hidden');
-			}
-			if (fSwiper.activeIndex == (fSwiper.slides.length - 1)) {
-				$('#nav-arrows .nav-right').addClass('hidden');
-			} else {
-				$('#nav-arrows .nav-right').removeClass('hidden');
-			}
-		}
-	});
+    var swiper = new Swiper('.swiper-container', {
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        speed: 1000,
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false
+    });
 	// Bind external navigation arrows for fullscreen slider
 	$('#nav-arrows .nav-left').on('click', function(e){
 		e.preventDefault();
@@ -110,28 +86,6 @@ jQuery(document).ready(function($) {
 		e.preventDefault();
 		fSwiper.swipeNext();
 	});
-	// Resize videos in fullscreen slider
-	function resizeToCover() {
-		$('#fullscreen-slider .swiper-slide').each(function() {
-			if ($(this).has('video').length) {
-				var vid_w_orig = parseInt($(this).find('video').attr('width'));
-				var vid_h_orig = parseInt($(this).find('video').attr('height'));
-				var container_w = $(this).width();
-				var container_h = $(this).height();
-				// Use largest scale factor of horizontal / vertical
-				var scale_h =  container_w / vid_w_orig;
-				var scale_v =  container_h / vid_h_orig;
-				var scale = scale_h > scale_v ? scale_h : scale_v;
-				// Scale the video
-				$(this).find('video').width(scale * vid_w_orig);
-				$(this).find('video').height(scale * vid_h_orig);
-				// Center the video
-				$(this).find('video').css('left', ((container_w - scale * vid_w_orig) / 2));
-				$(this).find('video').css('top', ((container_h - scale * vid_h_orig) / 2));
-			}
-		});
-	}
-	resizeToCover();
 
 /*==========================================================*/
 /* On resize

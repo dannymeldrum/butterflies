@@ -637,64 +637,36 @@ article.portfolio h3 {
 /*==========================================================*/
 /* Portfolio full
 /*==========================================================*/
-.portfolio-full {
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+    }
+.swiper-container .swiper-slide h1 {
+  width: 100%;
+  padding: 0 40px;
+  text-align: center;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
+  font-size: 32px;
+  line-height: 76px;
+  text-transform: lowercase;
+  letter-spacing: 5px;
+  color: #ffffff;
+  z-index: 1;
   left: 0;
-  padding-top: 100px;
-  background: #ffffff;
-  z-index: 9999;
-}
-.portfolio-full .portfolio-description {
-  float: left;
-  width: 500px;
-  max-height: 100%;
-  padding: 40px;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.portfolio-full .portfolio-description > * {
-  margin-bottom: 30px;
-}
-.portfolio-full .portfolio-description > *:last-child {
-  margin-bottom: 0;
-}
-.portfolio-full .swiper-container {
-  overflow: hidden;
-  width: auto;
-}
-.portfolio-full .swiper-slide {
-  width: 100%;
-  height: 100%;
-}
-/* Slide Effect */
-.portfolio-full-slidedown > * {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: opacity 1.5s linear;
+  transition: opacity 1.5s linear;
   opacity: 0;
-  transition: all 0.5s linear;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
 }
-.portfolio-full-slidedown.portfolio-open > * {
+.swiper-container .swiper-slide-active h1 {
   opacity: 1;
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
-}
-.portfolio-full-slidedown {
-  visibility: hidden;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
-  transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
-}
-.portfolio-full-slidedown.portfolio-open {
-  visibility: visible;
-  -webkit-transform: translateY(0%);
-  transform: translateY(0%);
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
 }
 /* Responsive */
 @media (max-width: 991px) {
