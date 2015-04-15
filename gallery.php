@@ -28,36 +28,91 @@
 							<!-- Masonry blog -->
 							<div class="masonry masonry-3 row">
 
-								<!-- First blog post -->
-								<article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/1.jpg)"></div>
+								<!-- First gallery post -->
+								<article class="gallery col-4">
+									<img src="img/gallery/1.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-								  <div class="image" style="background-image: url(img/gallery/2.jpg)"></div>
+                				<article class="gallery col-4">
+								  <img src="img/gallery/8.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/4.jpg)"></div>
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/5.jpg)"></div>
+                				<article class="gallery col-4">
+									<img src="img/gallery/5.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/6.jpg)"></div>
+                				<article class="gallery col-4">
+									<img src="img/gallery/6.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/7.jpg)"></div>
+                				<article class="gallery col-4">
+									<img src="img/gallery/7.jpg" />
 								</article>
                 
-                <article class="blog col-4">
-									<div class="image" style="background-image: url(img/gallery/8.jpg)"></div>
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
 								</article>
 
-								<!-- Blog post -->
+								<article class="gallery col-4">
+									<img src="img/gallery/1.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+								  <img src="img/gallery/8.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/5.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/6.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/7.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
+								</article>
+								
+								<article class="gallery col-4">
+									<img src="img/gallery/1.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+								  <img src="img/gallery/8.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/5.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/6.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/7.jpg" />
+								</article>
+                
+                				<article class="gallery col-4">
+									<img src="img/gallery/9.jpg" />
+								</article>
+
 							</div>
 
 						</div>
