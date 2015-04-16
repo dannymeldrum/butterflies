@@ -1,8 +1,11 @@
 
 
-require(['jquery','ui/subnav'], function(
+require(['jquery','ui/subnav', 'ui/swiper', 'ui/masonry', 'ui/isotope'], function(
 	$,
-  	subnav) {
+  	subnav,
+  swiper,
+  masonry,
+  isotope) {
 
 
   $(document).ready(function() {
@@ -10,6 +13,9 @@ require(['jquery','ui/subnav'], function(
     //console.log("Site js is loading ok :)");
 
     subnav.init();
+    swiper.init();
+    masonry.init();
+    isotope.init();
 
   });
 

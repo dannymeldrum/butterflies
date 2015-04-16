@@ -14,6 +14,9 @@ require.config({
 
         // Libraries (third party stuff)
         jquery: 'libs/jquery-1.11.1.min',
+        swiper: 'libs/idangerous.swiper.min',
+        isotope: 'libs/jquery.isotope.min',
+        masonry: 'libs/masonry.pkgd.min',
        
         // Common (Stuff we solve again and again)
         windowListener: 'common/windowListener',
