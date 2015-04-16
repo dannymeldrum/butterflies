@@ -46,7 +46,7 @@
 									</div>
 									<div class="icon-text">
 										<i class="fa fa-phone"></i>
-										<p>07969600846</p>
+										<p>07917711309</p>
 									</div>
 									<div class="icon-text">
 										<i class="fa fa-envelope-o"></i>
@@ -57,15 +57,15 @@
                                 	<header> <h3>Opening Times</h3> <br /> </header>
                                 	<div class="icon-text">
 										<i class="fa fa-clock-o"></i>
-										<p>Monday to Friday 10am - 8pm</p>
+										<p>Monday to Thursday 8am - 8pm</p>
                                     </div>
                                     <div class="icon-text">
 										<i class="fa fa-clock-o"></i>
-										<p>Saturday 9.45am - 7pm</p>
+										<p>Friday 8am - 9pm</p>
 									</div>
                                     <div class="icon-text">
 										<i class="fa fa-clock-o"></i>
-										<p>Sunday 10am - 2pm</p>
+										<p>Saturday 8am - 3pm</p>
 									</div>
 								</div>
 

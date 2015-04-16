@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
         spaceBetween: 30,
         centeredSlides: true,
         speed: 1000,
-        autoplay: 5000,
+        autoplay: 7000,
         autoplayDisableOnInteraction: false
     });
 	// Bind external navigation arrows for fullscreen slider

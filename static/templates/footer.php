@@ -12,7 +12,8 @@
 								<ul>
 		              				<li><a class="<?php if ($current_page == "index.php"){ echo "active "; }?>" href="/">Home</a></li>
 		              				<li><a class="<?php if ($current_page == "treatments.php"){ echo "active "; }?>" href="treatments">Treatments</a></li>
-		              				<li><a class="<?php if ($current_page == "offers.php"){ echo "active "; }?>" href="offers">Offers</a></li>
+		              				<li><a class="<?php if ($current_page == "wedding-makeup.php"){ echo "active "; }?>" href="wedding-makeup">Wedding Makeup</a></li>
+		              				<li><a class="<?php if ($current_page == "prom-packages.php"){ echo "active "; }?>" href="prom-packages">Prom Packages</a></li>
 		              				<li><a class="<?php if ($current_page == "gallery.php"){ echo "active "; }?>" href="gallery">Gallery</a></li>
 		              				<li><a class="<?php if ($current_page == "location-times.php"){ echo "active "; }?>" href="location-times">Location + Times</a></li>
 									<li><a class="<?php if ($current_page == "contact.php"){ echo "active "; }?>" href="contact">Make a booking</a></li>

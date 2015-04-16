@@ -26,464 +26,280 @@
 						<div class="main-column col-12">
 
 							<!-- Masonry blog -->
-							<div class="masonry masonry-3 row" style="position: relative; height: 3485.75px;">
+							<div class="masonry masonry-3 row">
 
 								<!-- First blog post -->
-								<article class="blog col-4" style="position: absolute; left: 0px; top: 0px;">
+								<article class="blog col-4">
 									<div class="image" style="background-image: url(img/treatment-images/1.jpg)"></div>
 									<div class="inner">
-										<header>
-											<h4>Waxing</h4>
-										</header>
-										<p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="waxing">
-            <strong>Body</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Hollywood (hot or strip wax)</td>
-        <td class="table">£20</td>
-      </tr>
-      <tr>
-        <td class="table">Brazilian (hot or strip wax)</td>
-        <td class="table">£17</td>
-      </tr>
-      <tr>
-        <td class="table">High-cut bikini (hot or strip wax)</td>
-        <td class="table">£12</td>
-      </tr>
-      <tr>
-        <td class="table">Standard bikini (hot or strip wax)</td>
-        <td class="table">£10</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="facewaxing">
-            <strong>Face</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Upper lip</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Chin</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Sideburns</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrows</td>
-        <td class="table">£4</td>
-    </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
+										<header> <h4>Sienna X Spray Tanning</h4> </header>
+										<table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table">Full body</td>
+                          <td class="table">£20</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Half body</td>
+                          <td class="table">£10</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>Spray tan party for four or more people and get your tan free.</p>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
 									</div>
 								</article>
-                                <article class="blog col-4" style="position: absolute; left: 343px; top: 0px;">
+
+                <article class="blog col-4">
 									<div class="image" style="background-image: url(img/treatment-images/2.jpg)"></div>
 									<div class="inner">
-										<header>
-											<h4>Nails</h4>
-										</header>
-										<p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="manicure">
-            <strong>Hands</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Colour change</td>
-        <td class="table">£8</td>
-      </tr>
-      <tr>
-        <td class="table">Paint and shape manicure</td>
-        <td class="table">£9.50</td>
-      </tr>
-      <tr>
-        <td class="table">Full manicure (cut, shape, cuticle work, buff, massage and colour)</td>
-        <td class="table">£15</td>
-      </tr>
-      <tr>
-        <td class="table">Nail art from</td>
-        <td class="table">£2</td>
-      </tr>
-      <tr>
-        <td class="table">Diamond nail art from</td>
-        <td class="table">£2</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="pedicure">
-            <strong>Feet</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Colour change</td>
-        <td class="table">£9</td>
-      </tr>
-      <tr>
-        <td class="table">Paint and shape pedicure</td>
-        <td class="table">£10</td>
-      </tr>
-      <tr>
-        <td class="table">Full pedicure (cut, shape, cuticle work, buff, massage and colour)</td>
-        <td class="table">£25</td>
-      </tr>
-      <tr>
-        <td class="table">Indulgent pedicure with spa mask</td>
-        <td class="table">£28</td>
-      </tr>
-    </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
+										<header> <h4>Massage</h4> </header>
+										<table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table">Full Body</td>
+                          <td class="table">£25</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Half Body</td>
+                          <td class="table">£15</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Pregnacy Massage</td>
+                          <td class="table">£20</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <p>You may think of massage as a luxury to indulge in on occasion. But one of the most beneficial times for massage may be during pregnancy. A pregnancy massage typically lasts an hour. I t can help with the following:</p>
+                    
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table"><li>Lowered anxiety</li></td>
+                        </tr>
+                        <tr>
+                          <td class="table"><li>Decreased back and leg pain</li></td>
+                        </tr>
+                        <tr>
+                          <td class="table"><li>Improved sleep</li></td>
+                        </tr>
+                        <tr>
+                          <td class="table"><li>Decreased levels of the stress</li></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>This in turn helps to relax the baby.</p>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
 									</div>
 								</article>
-                                <article class="blog col-4" style="position: absolute; left: 686px; top: 0px;">
-									<div class="image" style="background-image: url(img/treatment-images/4.jpg)"></div>
+                
+                <article class="blog col-4">
+									<div class="image" style="background-image: url(img/treatment-images/3.jpg)"></div>
 									<div class="inner">
-										<header>
-											<h4>Face and Body Spa</h4>
-										</header>
-										<p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="facial">
-            <strong>Facials</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Organic facial 30 minutes</td>
-        <td class="table">£26</td>
-      </tr>
-      <tr>
-        <td class="table">Organic facial 1 hour</td>
-        <td class="table">£42</td>
-      </tr>
-      <tr>
-        <td class="table">Jean D'Estrées Paris facial 1 hour</td>
-        <td class="table">£60</td>
-      </tr>
-      <tr>
-        <td class="table">Jean D'Estrées Paris anti-aging facial 1 hour</td>
-        <td class="table">£65</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="bodyspa">
-            <strong>Body</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Full holistic body massage 1 hour</td>
-        <td class="table">£45</td>
-      </tr>
-      <tr>
-        <td class="table">Back, neck, shoulder massage 25 minutes</td>
-        <td class="table">£22</td>
-      </tr>
-      <tr>
-        <td class="table">Deep tissue massage 30 minutes</td>
-        <td class="table">£30</td>
-      </tr>
-      <tr>
-        <td class="table">Deep tissue massage 45 minutes</td>
-        <td class="table">£45</td>
-      </tr>
-       <tr>
-        <td class="table">Deep tissue massage 1 hour</td>
-        <td class="table">£60</td>
-      </tr>
-      </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
+										<header> <h4>Nails</h4> </header>
+										<table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="table">
+                            <a name="facial">
+                              <strong>Hands</strong>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="table">File + Polish</td>
+                          <td class="table">£5</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Manicure</td>
+                          <td class="table">£10</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Luxury Manicure</td>
+                          <td class="table">£15</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                          <td colspan="2" class="table">
+                            <a name="facial">
+                              <strong>Feet</strong>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="table">File + Polish</td>
+                          <td class="table">£5</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Pedicure</td>
+                          <td class="table">£15</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Luxury Pedicure</td>
+                          <td class="table">£20</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Callus Peel</td>
+                          <td class="table">£12</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>Callus Peel is a luxury, spa foot treatment that removes hard, callused skin leaving your feet feeling soft and revitalised. The treatment is a 15 minute process through five stages: Patch, Wrapping, Scraping, Filing and Creaming.</p>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td class="table">French Finishes</td>
+                          <td class="table">£2</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Nail Art</td>
+                          <td class="table">£2</td>
+                        </tr>
+                        <tr>
+                        </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
 									</div>
 								</article>
-                                <article class="blog col-4" style="position: absolute; left: 0px; top: 1375px;">
-									<div class="image" style="background-image: url(img/treatment-images/5.jpg)"></div>
-									<div class="inner">
-										<header>
-											<h4>Eyes, Brows and Threading</h4>
-										</header>
-										<p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="eyesbrows">
-            <strong>Eyes and Brows</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrow shape</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrow tint</td>
-        <td class="table">£8</td>
-      </tr>
-      <tr>
-        <td class="table">Eyelash tint</td>
-        <td class="table">£12</td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrow and eyelash combination</td>
-        <td class="table">£18</td>
-      </tr>
-      <tr>
-        <td class="table">Individual lash application from</td>
-        <td class="table">£50</td>
-      </tr>
-      <tr>
-        <td class="table">Strip lashes applied by us (including lashes)</td>
-        <td class="table">£12</td>
-      </tr>
-      <tr>
-        <td class="table">Strip lashes applied by us (your own lashes)</td>
-        <td class="table">£7</td>
-      </tr>      
-      <tr>
-        <td class="table">Flair lashes full set from</td>
-        <td class="table">£35</td>
-      </tr>
-      <tr>
-        <td class="table">Yumilash eyelash lift new technique</td>
-        <td class="table">£65</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="threading">
-            <strong>Threading</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrows</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Upper lip</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Chin</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Sideburn</td>
-        <td class="table">£5</td>
-      </tr>
-      <tr>
-        <td class="table">Neck</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Forehead</td>
-        <td class="table">£4</td>
-      </tr>
-      <tr>
-        <td class="table">Full face</td>
-        <td class="table">£15</td>
-      </tr>
-      </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
-									</div>
-								</article>
-                                <article class="blog col-4" style="position: absolute; left: 686px; top: 1587px;">
-									<div class="image" style="background-image: url(img/treatment-images/6.jpg)"></div>
-									<div class="inner">
-										<header>
-											<h4>Make-up and Henna</h4>
-										</header>
-                                        <p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-	  <tr>
-        <td class="table">Day make-up</td>
-        <td class="table">£25</td>
-      </tr>
-      <tr>
-        <td class="table">Evening make-up</td>
-        <td class="table">£35</td>
-      </tr>
-      <tr>
-        <td class="table">Bridal make-up from</td>
-        <td class="table">£100</td>
-      </tr>
-      <tr>
-        <td class="table">Henna available</td>
-        <td class="table">£POA</td>
-      </tr>
-      </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
-									</div>
-								</article>
-                                <article class="blog col-4" style="position: absolute; left: 343px; top: 1739px;">
-									<div class="image" style="background-image: url(img/treatment-images/7.jpg)"></div>
-									<div class="inner">
-										<header>
-											<h4>Tanning</h4>
-										</header>
-										<p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-      <tr>
-        <td class="table">Spray-on tan</td>
-        <td class="table">£20</td>
-      </tr>
-      <tr>
-        <td class="table">Any additional sprays</td>
-        <td class="table">£5</td>
-      </tr>
-      <tr>
-        <td class="table">Rub-on tan</td>
-        <td class="table">£25</td>
-      </tr>
-      <tr>
-        <td class="table">Red carpet finish rub-on tan (exfoliation of full body followed by a golden rub-on tan)</td>
-        <td class="table">£45</td>
-      </tr>
-      </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
-									</div>
-								</article>
-                                <article class="blog col-4" style="position: absolute; left: 686px; top: 2250px;">
-									<div class="image" style="background-image: url(img/treatment-images/8.jpg)"></div>
-									<div class="inner">
-										<header>
-											<h4>Men's Grooming</h4>
-										</header>
-	  <p>
-  </p><table cellpadding="2" cellspacing="0" border="0">
-    <tbody>
-       <tr>
-        <td colspan="2" class="table">
-          <a name="threading">
-            <strong>Waxing</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Eyebrow wax or thread</td>
-        <td class="table">£8</td>
-      </tr>
-      <tr>
-        <td class="table">Ear wax</td>
-        <td class="table">£8</td>
-      </tr>
-      <tr>
-        <td class="table">Full chest wax from</td>
-        <td class="table">£30</td>
-      </tr>
-      <tr>
-        <td class="table">Half leg from</td>
-        <td class="table">£20</td>
-      </tr>
-      <tr>
-        <td class="table">Full leg from</td>
-        <td class="table">£30</td>
-      </tr>
-      <tr>
-        <td class="table">Full arms from</td>
-        <td class="table">£20</td>
-      </tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="threading">
-            <strong>Hands and Feet</strong>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td class="table">Gentleman's Manicure</td>
-        <td class="table">£16</td>
-      </tr>
-      <tr>
-        <td class="table">Gentleman's Pedicure with hard skin removal</td>
-        <td class="table">£32</td>
-      </tr>
-      <tr>
-        <td colspan="2" class="table">
-          <a name="threading">
-            <strong>Face and Body Spa</strong>
-          </a>
-        </td>
-      </tr>
-      
-      <tr>
-        <td class="table">Gentleman's tonic facial 30 minutes</td>
-        <td class="table">£35</td>
-      </tr>
-      <tr>
-        <td class="table">Gentleman's tonic facial 1 hour</td>
-        <td class="table">£55</td>
-      </tr>
-      <tr>
-        <td class="table">Deep tissue body massage 1 hour</td>
-        <td class="table">£65</td>
-      </tr>
-      <tr>
-        <td class="table">Relaxing sports massage 1 hour</td>
-        <td class="table">£65</td>
-      </tr>
-      </tbody>
-  </table>
-<p></p>
-                                        <a href="contact.html" class="read-more">Make A Booking</a> or call 0207 407 6606
-									</div>
-								</article>
-                                <article class="blog col-4" style="position: absolute; left: 343px; top: 2442px;">
-									<div class="image" style="background-image: url(img/treatment-images/9.jpg)"></div>
-									<div class="inner">
-										<header>
-											<h4>Beauty By Butterflies</h4>
-										</header>
-										<p></p><div class="icon-text">
-											<i class="fa fa-map-marker"></i>
-											<p> Morley<br>Leeds</p>
-										</div>
-										<div class="icon-text">
-											<i class="fa fa-phone"></i>
-											<p>07969600846</p>
-										</div>
-										<div class="icon-text">
-											<i class="fa fa-envelope-o"></i>
-											<p><a href="mailto:info@beautybybutterflies.co.uk">info@beautybybutterflies.co.uk</a></p>
-								</div><p></p>
-									</div>
-								</article>
-								<!-- Blog post -->
+                
+                <article class="blog col-4">
+                  <div class="image" style="background-image: url(img/treatment-images/4.jpg)"></div>
+                  <div class="inner">
+                    <header> <h4>Gels</h4> </header>
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="table">
+                            <a name="facial">
+                              <strong>IBD Just Gel</strong>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="table">Fingers or Toes</td>
+                          <td class="table">£15</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Fingers + Toes</td>
+                          <td class="table">£25</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                          <td colspan="2" class="table">
+                            <a name="facial">
+                              <strong>Gel Extensions</strong>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="table">Prices start from</td>
+                          <td class="table">£18</td>
+                        </tr>
+                        <tr>
+                          <td class="table">&nbsp;</td>
+                          <td class="table">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Nail Art</td>
+                          <td class="table">£2</td>
+                        </tr>
+                        <tr>
+                        </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
+                  </div>
+                </article>
+                
+                <article class="blog col-4">
+                  <div class="image" style="background-image: url(img/treatment-images/5.jpg)"></div>
+                  <div class="inner">
+                    <header> <h4>Facials</h4> </header>
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table">Mini Facial</td>
+                          <td class="table">£10</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Full Facial</td>
+                          <td class="table">£15</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Luxury Facial</td>
+                          <td class="table">£20</td>
+                        </tr>
+                        <tr>
+                        </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
+                  </div>
+                </article>
+                
+                <article class="blog col-4">
+                  <div class="image" style="background-image: url(img/treatment-images/6.jpg)"></div>
+                  <div class="inner">
+                    <header> <h4>Eyes (Patched tests required)</h4> </header>
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table">Eyebrow Wax</td>
+                          <td class="table">£5</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Eyebrow Tint</td>
+                          <td class="table">£5</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Eyelash Tint</td>
+                          <td class="table">£8</td>
+                        </tr>
+                        <tr>
+                          <td class="table">Eyelash Perm</td>
+                          <td class="table">£12</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
+                  </div>
+                </article>
+                
+                <article class="blog col-4">
+                  <div class="image" style="background-image: url(img/treatment-images/7.jpg)"></div>
+                  <div class="inner">
+                    <header> <h4>Makeup</h4> </header>
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="table">Special Occasions (Proms, Parties + Nights Out)</td>
+                          <td class="table">£20</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
+                  </div>
+                </article>
+                
+                <article class="blog col-4">
+                  <div class="image" style="background-image: url(img/treatment-images/8.jpg)"></div>
+                  <div class="inner">
+                    <header> <h4>Waxing</h4> </header>
+                    <table cellpadding="2" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="table">
+                            <a name="facial">
+                              <strong>Coming Soon</strong>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <a href="contact.html" class="read-more">Make A Booking</a> or call 07917711309
+                  </div>
+                </article>
+                
+
 							</div>
 
 						</div>
